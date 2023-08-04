@@ -1,0 +1,207 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.reactFrame {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+
+table.altrowstable2 {
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  border-collapse: collapse;
+}
+
+table.altrowstable2 td {
+  padding: 8px;
+}
+
+.Button1 {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #0078d4;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.Button1:hover {
+  background-color: #005a9e;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.Button1:active {
+  background-color: #004e8a;
+  transform: scale(0.95);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.altrowstable1 {
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  border-collapse: collapse;
+}
+
+.altrowstable1 th {
+  border-width: 1px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  color: black;
+  font-weight: bold;
+
+  font-size: 10pt;
+  text-align: center;
+}
+
+.description {
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  width: 200px;
+  height: auto;
+  color: black;
+  background-color: #ccc;
+  text-align: left;
+  z-index: 99999;
+}
+
+.table {
+  thead {
+    background-color: #004e8a;
+    color: white;
+  }
+}
+
+.button-container {
+  display: flex;
+}
+
+.button {
+  padding: 10px 20px;
+  background: #004e8a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.button:hover {
+  background: #004e8a;
+}
+
+.headingStyle {
+  border-bottom: '2px solid #ccc';
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #004e8a;
+}
+
+.search {
+  background-color: #004e8a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.tooltipExampleCustomHost {
+  display: inline-block;
+}
+
+.tooltipExampleCustomTooltip {
+  background-color: #0078d4;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 200px;
+  white-space: nowrap;
+}
+
+.custom-input {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.custom-input::placeholder {
+  color: darkgrey;
+  font-size: 12px;
+}
+
+.tableheader {
+  background-color: #004e8a;
+  color: #fff;
+  width: "100%";
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.tabledataborder {
+  border-width: 1px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  color: black;
+  font-weight: bold;
+
+  font-size: 10pt;
+  text-align: center;
+}
